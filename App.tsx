@@ -4,19 +4,19 @@ import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-d
 import { motion, AnimatePresence } from 'framer-motion';
 
 // Components
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import FloatingSocials from './components/FloatingSocials';
-import AnimatedBackground from './components/AnimatedBackground';
-import AIConsultant from './components/AIConsultant';
-import ScrollProgress from './components/ScrollProgress';
+import Navbar from './components/Navbar.tsx';
+import Footer from './components/Footer.tsx';
+import FloatingSocials from './components/FloatingSocials.tsx';
+import AnimatedBackground from './components/AnimatedBackground.tsx';
+import AIConsultant from './components/AIConsultant.tsx';
+import ScrollProgress from './components/ScrollProgress.tsx';
 
 // Pages
-import Home from './pages/Home';
-import Services from './pages/Services';
-import Differentials from './pages/Differentials';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
+import Home from './pages/Home.tsx';
+import Services from './pages/Services.tsx';
+import Differentials from './pages/Differentials.tsx';
+import Portfolio from './pages/Portfolio.tsx';
+import Contact from './pages/Contact.tsx';
 
 const PageWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const { pathname } = useLocation();

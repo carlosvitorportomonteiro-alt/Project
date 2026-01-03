@@ -1,7 +1,5 @@
 {
-  "name": "Carlos Vitor Porto | Engenharia de Software & Design Elite",
-  "description": "Desenvolvimento web de alto padrão, sistemas escaláveis e arquitetura de software premium por Carlos Vitor Porto.",
-  "requestFramePermissions": [
-    "camera"
-  ]
+  "name": "Carlos Vitor Porto | Engenharia Elite",
+  "description": "Portfólio industrial e laboratório de IA estrategista.",
+  "requestFramePermissions": []
 }
